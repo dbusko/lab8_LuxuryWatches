@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <%= stylesheet_link_tag 'style' %>
+    <%= javascript_include_tag 'script' %>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>LuxuryWatches</title>
+</head>
+<body>
+    <section id="header">
+        <a href="/" class="logo">LuxuryWatches</a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="/">Home</a></li>
+                <li><a href="/shop/shop">Shop</a></li>
+                <li><a href="/blog/blog">Blog</a></li>
+                <li><a href="/about/about">About</a></li>
+                <li><a href="/contact/contact">Contact</a></li>
+                <li id="lg-bag"><a href="/cart/cart"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="/cart/cart"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent" onmouseover="sideBar()"></i>
+        </div>
+    </section>
+    <section id="hero">
+        <h4>Trade-in-offer</h4>
+        <h2>Super value deals</h2>
+        <h1>On all products</h1>
+        <p>Save more with coupons & up to 70% off!</p>
+        <button>Shop Now</button>
+    </section>
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img/features/f1.png" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f2.png" alt="">
+            <h6>Online Order</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f3.png" alt="">
+            <h6>Save Money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f4.png" alt="">
+            <h6>Promotions</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f5.png" alt="">
+            <h6>Happy Sell</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f6.png" alt="">
+            <h6>24/7 Support</h6>
+        </div>
+    </section>
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer offer New Modern Design</p>
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href = '/sproduct/sproduct';">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span>apple</span>
+                    <h5>Apple Watch Series 7 Silver</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$928</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f2.png" alt="">
+                <div class="des">
+                    <span>apple</span>
+                    <h5>Apple Watch Series 7 Graphite</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$878</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f3.jpeg" alt="">
+                <div class="des">
+                    <span>apple</span>
+                    <h5>Apple Watch Series 7 Gold</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$950</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f4.jpeg" alt="">
+                <div class="des">
+                    <span>apple</span>
+                    <h5>Apple Watch Series 7 Starlight</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$498</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f5.jpg" alt="">
+                <div class="des">
+                    <span>samsung</span>
+                    <h5> Samsung Galaxy Watch Gold Aluminium</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$589</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f6.jpg" alt="">
+                <div class="des">
+                    <span>samsung</span>
+                    <h5>Samsung Galaxy Watch Silver Aluminium</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$539</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f7.jpeg" alt="">
+                <div class="des">
+                    <span>huawei</span>
+                    <h5>Huawei Watch GT 2 Pro Classic</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$320</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f8.png" alt="">
+                <div class="des">
+                    <span>huawei</span>
+                    <h5>Huawei Watch GT 2 Pro Night Black</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$350</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="banner" class="section-m1">
+        <h4>Repair Services</h4>
+        <h2>Up to <span>70% Off</span> - All Redmi Watch & Lotus</h2>
+        <button class="normal">Explore More</button>
+    </section>
+    <section id="product1" class="section-p1">
+        <h2>Classic Products</h2>
+        <p>Classic Summer Collection New Design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/n1.png" alt="">
+                <div class="des">
+                    <span>lotus</span>
+                    <h5>Lotus Women's Silver Stainless</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$125</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n2.png" alt="">
+                <div class="des">
+                    <span>lotus</span>
+                    <h5>Lotus Women's Pink Bliss</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$279</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n3.png" alt="">
+                <div class="des">
+                    <span>lotus</span>
+                    <h5>Lotus Women's Grey Trendy</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$378</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n4.png" alt="">
+                <div class="des">
+                    <span>lotus</span>
+                    <h5>Lotus Men's Black Connected</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$398</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n5.png" alt="">
+                <div class="des">
+                    <span>rolex</span>
+                    <h5>Rolex Day-Date President Yellow Gold</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$20250</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n6.png" alt="">
+                <div class="des">
+                    <span>rolex</span>
+                    <h5>Rolex Datejust Factory Diamond Mother of Pearl</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$18750</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n7.png" alt="">
+                <div class="des">
+                    <span>rolex</span>
+                    <h5>Rolex Sky Dweller Annual Calendar Rose Gold</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$38250</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n8.png" alt="">
+                <div class="des">
+                    <span>rolex</span>
+                    <h5>Rolex Oyster Perpetual Stainless Steel Blue Dial</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$10500</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>crazy deals</h4>
+            <h2>buy 1 get 1 free</h2>
+            <span>The best modern watches are sold on LuxuryWatches</span>
+            <button class="white">Learn More</button>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>spring/summer</h4>
+            <h2>upcoming season</h2>
+            <span>The Most outslanding Luxury Watches for Men</span>
+            <button class="white">Collection</button>
+        </div>
+    </section>
+    <section id="banner3">
+        <div class="banner-box">
+            <h2>SPORT SALE</h2>
+            <h3>Sport Collection -50% Off</h3>
+        </div>
+        <div class="banner-box banner-box2">
+            <h2>NEW CLASSIC COLLECTION</h2>
+            <h3>Вiscover The Сlassics</h3>
+        </div>
+        <div class="banner-box banner-box3">
+            <h2>Smart Watches</h2>
+            <h3>Your Reliable Assistant</h3>
+        </div>
+    </section>
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <div class="logo">LuxuryWatches</div>
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> building №1, IFNTUNG, Ivano-Frankivsk, 76000</p>
+            <p><strong>Hours:</strong> 10:00 - 21:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secure Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">Ⓒ 2022, Dmytro Busko - HTML CSS Ecommerce Template</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
